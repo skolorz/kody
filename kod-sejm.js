@@ -13,7 +13,12 @@ module.exports = {
 
     powiat = powiatByKod(kod, wojewodztwa);
     okreg = okregi.filter(function(o){
-        return o.powiaty && o.powiaty.indexOf(powiat) > -1;
+        if (o.powiaty && o.powiaty.indexOf(powiat) > -1) {
+            return true;
+        }
+        if (o.miasta && o.miasta.indexOf(powiat) > -1) {
+            return true;
+        }
     });
     return okreg.pop();
 }

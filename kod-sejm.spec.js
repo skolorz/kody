@@ -1,6 +1,6 @@
 describe("Mapowanie kodów pocztowych na okręgi", function() {
-	var okregi = require("./sejm.json"),
-    	kody = require("./kody.json"),
+	var okregi = require("./data/sejm.json"),
+    	kody = require("./data/kody.json"),
     	ks = require("./kod-sejm.js");
 
  it("should find okreg by code", function() {
