@@ -1,0 +1,41 @@
+1   Legnica powiaty: bolesławiecki, głogowski, jaworski, jeleniogórski, kamiennogórski, legnicki, lubański, lubiński, lwówecki, polkowicki, zgorzelecki i złotoryjski; miasta na prawach powiatu: Jelenia Góra i Legnica    986879  12  82240
+2   Wałbrzych   powiaty: dzierżoniowski, kłodzki, świdnicki, wałbrzyski i ząbkowicki; miasto na prawach powiatu: Wałbrzych  675332  8   84417
+3   Wrocław powiaty: górowski, milicki, oleśnicki, oławski, strzeliński, średzki, trzebnicki, wołowski i wrocławski; miasto na prawach powiatu: Wrocław 1177802 14  84129
+4   Bydgoszcz   powiaty: bydgoski, inowrocławski, mogileński, nakielski, sępoleński, świecki, tucholski i żniński; miasto na prawach powiatu: Bydgoszcz 1003261 12  83605
+5   Toruń   powiaty: aleksandrowski, brodnicki, chełmiński, golubsko-dobrzyński, grudziądzki, lipnowski, radziejowski, rypiński, toruński, wąbrzeski i włocławski; miasta na prawach powiatu: Grudziądz, Toruń i Włocławek  1046849 13  80527
+6   Lublin  powiaty: janowski, kraśnicki, lubartowski, lubelski, łęczyński, łukowski, opolski, puławski, rycki i świdnicki; miasto na prawach powiatu: Lublin   1199999 15  80000
+7   Chełm   powiaty: bialski, biłgorajski, chełmski, hrubieszowski, krasnostawski, parczewski, radzyński, tomaszowski, włodawski i zamojski; miasta na prawach powiatu: Biała Podlaska, Chełm i Zamość  974707  12  81226
+8   Zielona Góra    województwo lubuskie    1003220 12  83602
+9   Łódź    powiaty: brzeziński i łódzki wschodni; miasto na prawach powiatu: Łódź  794636  10  79464
+10  Piotrków Trybunalski    powiaty: bełchatowski, opoczyński, piotrkowski, radomszczański, rawski, skierniewicki i tomaszowski; miasta na prawach powiatu: Piotrków Trybunalski i Skierniewice 737045  9   81894
+11  Sieradz powiaty: kutnowski, łaski, łęczycki, łowicki, pabianicki, pajęczański, poddębicki, sieradzki, wieluński, wieruszowski, zduńskowolski i zgierski 972481  12  81040
+12  Chrzanów    powiaty: chrzanowski, myślenicki, oświęcimski, suski i wadowicki    642662  8   80333
+13  Kraków  powiaty: krakowski, miechowski i olkuski; miasto na prawach powiatu: Kraków 1120711 14  80051
+14  Nowy Sącz   powiaty: gorlicki, limanowski, nowosądecki, nowotarski i tatrzański; miasto na prawach powiatu: Nowy Sącz   784316  10  78432
+15  Tarnów  powiaty: bocheński, brzeski, dąbrowski, proszowicki, tarnowski i wielicki; miasto na prawach powiatu: Tarnów    719037  9   79893
+16  Płock   powiaty: ciechanowski, gostyniński, mławski, płocki, płoński, przasnyski, sierpecki, sochaczewski, żuromiński i żyrardowski; miasto na prawach powiatu: Płock   842976  10  84298
+17  Radom   powiaty: białobrzeski, grójecki, kozienicki, lipski, przysuski, radomski, szydłowiecki i zwoleński; miasto na prawach powiatu: Radom    724756  9   80528
+18  Siedlce powiaty: garwoliński, łosicki, makowski, miński, ostrołęcki, ostrowski, pułtuski, siedlecki, sokołowski, węgrowski i wyszkowski; miasta na prawach powiatu: Ostrołęka i Siedlce 960655  12  80055
+19  Warszawa    miasto na prawach powiatu: Warszawa 1603233 20  80055
+20  Warszawa    powiaty: grodziski, legionowski, nowodworski, otwocki, piaseczyński, pruszkowski, warszawski zachodni i wołomiński  986074  12  82173
+21  Opole   województwo opolskie    1001827 12  83486
+22  Krosno  powiaty: bieszczadzki, brzozowski, jarosławski, jasielski, krośnieński, leski, lubaczowski, przemyski, przeworski i sanocki; miasta na prawach powiatu: Krosno i Przemyśl   893055  11  81187
+23  Rzeszów powiaty: dębicki, kolbuszowski, leżajski, łańcucki, mielecki, niżański, ropczycko-sędziszowski, rzeszowski, stalowowolski, strzyżowski i tarnobrzeski; miasta na prawach powiatu: Rzeszów i Tarnobrzeg  1233497 15  82233
+24  Białystok   województwo podlaskie   1190510 14  85036
+25  Gdańsk  powiaty: gdański, kwidzyński, malborski, nowodworski, starogardzki, sztumski i tczewski; miasta na prawach powiatu: Gdańsk i Sopot  1026157 12  85513
+26  Gdynia  powiaty: bytowski, chojnicki, człuchowski, kartuski, kościerski, lęborski, pucki, słupski i wejherowski; miasta na prawach powiatu: Gdynia i Słupsk 1178950 14  84211
+27  Bielsko-Biała   powiaty: bielski, cieszyński, pszczyński i żywiecki; miasto na prawach powiatu: Bielsko-Biała   756208  9   84023
+28  Częstochowa powiaty: częstochowski, kłobucki, lubliniecki i myszkowski; miasto na prawach powiatu: Częstochowa  600225  7   85746
+29  Gliwice powiaty: gliwicki i tarnogórski; miasta na prawach powiatu: Bytom, Gliwice i Zabrze 771169  9   85685
+30  Rybnik  powiaty: mikołowski, raciborski, rybnicki i wodzisławski; miasta na prawach powiatu: Jastrzębie-Zdrój, Rybnik i Żory    718360  9   79818
+31  Katowice    powiat bieruńsko-lędziński; miasta na prawach powiatu: Chorzów, Katowice, Mysłowice, Piekary Śląskie, Ruda Śląska, Siemianowice Śląskie, Świętochłowice i Tychy 980996  12  81750
+32  Sosnowiec   powiaty: będziński i zawierciański; miasta na prawach powiatu: Dąbrowa Górnicza, Jaworzno i Sosnowiec   700234  9   77804
+33  Kielce  województwo świętokrzyskie  1283669 16  80229
+34  Elbląg  powiaty: bartoszycki, braniewski, działdowski, elbląski, iławski, lidzbarski, nowomiejski i ostródzki; miasto na prawach powiatu: Elbląg    641373  8   80172
+35  Olsztyn powiaty: ełcki, giżycki, gołdapski, kętrzyński, mrągowski, nidzicki, olecki, olsztyński, piski, szczycieński i węgorzewski; miasta na prawach powiatu: Ełk i Olsztyn    797764  10  79776
+36  Kalisz  powiaty: gostyński, jarociński, kaliski, kępiński, kościański, krotoszyński, leszczyński, ostrowski, ostrzeszowski, pleszewski i rawicki; miasta na prawach powiatu: Kalisz i Leszno    999418  12  83285
+37  Konin   powiaty: gnieźnieński, kolski, koniński, słupecki, średzki, śremski, turecki i wrzesiński; miasto na prawach powiatu: Konin 773727  9   85970
+38  Piła    powiaty: chodzieski, czarnkowsko-trzcianecki, grodziski, międzychodzki, nowotomyski, obornicki, pilski, szamotulski, wągrowiecki, wolsztyński i złotowski   772319  9   85813
+39  Poznań  powiat poznański; miasto na prawach powiatu: Poznań 834183  10  83418
+40  Koszalin    powiaty: białogardzki, choszczeński, drawski, kołobrzeski, koszaliński, sławieński, szczecinecki, świdwiński i wałecki; miasto na prawach powiatu: Koszalin 644377  8   80547
+41  Szczecin    powiaty: goleniowski, gryficki, gryfiński, kamieński, łobeski, myśliborski, policki, pyrzycki i stargardzki; miasta na prawach powiatu: Szczecin i Świnoujście  1026640 12  85553

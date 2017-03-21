@@ -1,0 +1,628 @@
+[
+  {
+    "nr": "1",
+    "nazwa": "Legnica",
+    "powiaty": [
+      "bolesławiecki",
+      "głogowski",
+      "jaworski",
+      "jeleniogórski",
+      "kamiennogórski",
+      "legnicki",
+      "lubański",
+      "lubiński",
+      "lwówecki",
+      "polkowicki",
+      "zgorzelecki",
+      "złotoryjski"
+    ],
+    "miasta": [
+      "Jelenia Góra",
+      "Legnica"
+    ]
+  },
+  {
+    "nr": "2",
+    "nazwa": "Wałbrzych",
+    "powiaty": [
+      "dzierżoniowski",
+      "kłodzki",
+      "świdnicki",
+      "wałbrzyski",
+      "ząbkowicki"
+    ],
+    "miasta": [
+      "Wałbrzych"
+    ]
+  },
+  {
+    "nr": "3",
+    "nazwa": "Wrocław",
+    "powiaty": [
+      "górowski",
+      "milicki",
+      "oleśnicki",
+      "oławski",
+      "strzeliński",
+      "średzki",
+      "trzebnicki",
+      "wołowski",
+      "wrocławski"
+    ],
+    "miasta": [
+      "Wrocław"
+    ]
+  },
+  {
+    "nr": "4",
+    "nazwa": "Bydgoszcz",
+    "powiaty": [
+      "bydgoski",
+      "inowrocławski",
+      "mogileński",
+      "nakielski",
+      "sępoleński",
+      "świecki",
+      "tucholski",
+      "żniński"
+    ],
+    "miasta": [
+      "Bydgoszcz"
+    ]
+  },
+  {
+    "nr": "5",
+    "nazwa": "Toruń",
+    "powiaty": [
+      "aleksandrowski",
+      "brodnicki",
+      "chełmiński",
+      "golubsko-dobrzyński",
+      "grudziądzki",
+      "lipnowski",
+      "radziejowski",
+      "rypiński",
+      "toruński",
+      "wąbrzeski",
+      "włocławski"
+    ],
+    "miasta": [
+      "Grudziądz",
+      "Toruń",
+      "Włocławek"
+    ]
+  },
+  {
+    "nr": "6",
+    "nazwa": "Lublin",
+    "powiaty": [
+      "janowski",
+      "kraśnicki",
+      "lubartowski",
+      "lubelski",
+      "łęczyński",
+      "łukowski",
+      "opolski",
+      "puławski",
+      "rycki",
+      "świdnicki"
+    ],
+    "miasta": [
+      "Lublin"
+    ]
+  },
+  {
+    "nr": "7",
+    "nazwa": "Chełm",
+    "powiaty": [
+      "bialski",
+      "biłgorajski",
+      "chełmski",
+      "hrubieszowski",
+      "krasnostawski",
+      "parczewski",
+      "radzyński",
+      "tomaszowski",
+      "włodawski",
+      "zamojski"
+    ],
+    "miasta": [
+      "Biała Podlaska",
+      "Chełm",
+      "Zamość"
+    ]
+  },
+  {
+    "nr": "8",
+    "nazwa": "Zielona Góra",
+    "wojewodztwo": "lubuskie"
+  },
+  {
+    "nr": "9",
+    "nazwa": "Łódź",
+    "powiaty": [
+      "brzeziński",
+      "łódzki wschodni"
+    ],
+    "miasta": [
+      "Łódź"
+    ]
+  },
+  {
+    "nr": "10",
+    "nazwa": "Piotrków Trybunalski",
+    "powiaty": [
+      "bełchatowski",
+      "opoczyński",
+      "piotrkowski",
+      "radomszczański",
+      "rawski",
+      "skierniewicki",
+      "tomaszowski"
+    ],
+    "miasta": [
+      "Piotrków Trybunalski",
+      "Skierniewice"
+    ]
+  },
+  {
+    "nr": "11",
+    "nazwa": "Sieradz",
+    "powiaty": [
+      "kutnowski",
+      "łaski",
+      "łęczycki",
+      "łowicki",
+      "pabianicki",
+      "pajęczański",
+      "poddębicki",
+      "sieradzki",
+      "wieluński",
+      "wieruszowski",
+      "zduńskowolski",
+      "zgierski"
+    ]
+  },
+  {
+    "nr": "12",
+    "nazwa": "Chrzanów",
+    "powiaty": [
+      "chrzanowski",
+      "myślenicki",
+      "oświęcimski",
+      "suski",
+      "wadowicki   "
+    ]
+  },
+  {
+    "nr": "13",
+    "nazwa": "Kraków",
+    "powiaty": [
+      "krakowski",
+      "miechowski",
+      "olkuski"
+    ],
+    "miasta": [
+      "Kraków"
+    ]
+  },
+  {
+    "nr": "14",
+    "nazwa": "Nowy Sącz",
+    "powiaty": [
+      "gorlicki",
+      "limanowski",
+      "nowosądecki",
+      "nowotarski",
+      "tatrzański"
+    ],
+    "miasta": [
+      "Nowy Sącz"
+    ]
+  },
+  {
+    "nr": "15",
+    "nazwa": "Tarnów",
+    "powiaty": [
+      "bocheński",
+      "brzeski",
+      "dąbrowski",
+      "proszowicki",
+      "tarnowski",
+      "wielicki"
+    ],
+    "miasta": [
+      "Tarnów"
+    ]
+  },
+  {
+    "nr": "16",
+    "nazwa": "Płock",
+    "powiaty": [
+      "ciechanowski",
+      "gostyniński",
+      "mławski",
+      "płocki",
+      "płoński",
+      "przasnyski",
+      "sierpecki",
+      "sochaczewski",
+      "żuromiński",
+      "żyrardowski"
+    ],
+    "miasta": [
+      "Płock"
+    ]
+  },
+  {
+    "nr": "17",
+    "nazwa": "Radom",
+    "powiaty": [
+      "białobrzeski",
+      "grójecki",
+      "kozienicki",
+      "lipski",
+      "przysuski",
+      "radomski",
+      "szydłowiecki",
+      "zwoleński"
+    ],
+    "miasta": [
+      "Radom"
+    ]
+  },
+  {
+    "nr": "18",
+    "nazwa": "Siedlce",
+    "powiaty": [
+      "garwoliński",
+      "łosicki",
+      "makowski",
+      "miński",
+      "ostrołęcki",
+      "ostrowski",
+      "pułtuski",
+      "siedlecki",
+      "sokołowski",
+      "węgrowski",
+      "wyszkowski"
+    ],
+    "miasta": [
+      "Ostrołęka",
+      "Siedlce"
+    ]
+  },
+  {
+    "nr": "19",
+    "nazwa": "Warszawa",
+    "miasta": [
+      "Warszawa"
+    ]
+  },
+  {
+    "nr": "20",
+    "nazwa": "Warszawa",
+    "powiaty": [
+      "grodziski",
+      "legionowski",
+      "nowodworski",
+      "otwocki",
+      "piaseczyński",
+      "pruszkowski",
+      "warszawski zachodni",
+      "wołomiński "
+    ]
+  },
+  {
+    "nr": "21",
+    "nazwa": "Opole",
+    "wojewodztwo": "opolskie"
+  },
+  {
+    "nr": "22",
+    "nazwa": "Krosno",
+    "powiaty": [
+      "bieszczadzki",
+      "brzozowski",
+      "jarosławski",
+      "jasielski",
+      "krośnieński",
+      "leski",
+      "lubaczowski",
+      "przemyski",
+      "przeworski",
+      "sanocki"
+    ],
+    "miasta": [
+      "Krosno",
+      "Przemyśl"
+    ]
+  },
+  {
+    "nr": "23",
+    "nazwa": "Rzeszów",
+    "powiaty": [
+      "dębicki",
+      "kolbuszowski",
+      "leżajski",
+      "łańcucki",
+      "mielecki",
+      "niżański",
+      "ropczycko-sędziszowski",
+      "rzeszowski",
+      "stalowowolski",
+      "strzyżowski",
+      "tarnobrzeski"
+    ],
+    "miasta": [
+      "Rzeszów",
+      "Tarnobrzeg"
+    ]
+  },
+  {
+    "nr": "24",
+    "nazwa": "Białystok",
+    "wojewodztwo": "podlaskie"
+  },
+  {
+    "nr": "25",
+    "nazwa": "Gdańsk",
+    "powiaty": [
+      "gdański",
+      "kwidzyński",
+      "malborski",
+      "nowodworski",
+      "starogardzki",
+      "sztumski",
+      "tczewski"
+    ],
+    "miasta": [
+      "Gdańsk",
+      "Sopot"
+    ]
+  },
+  {
+    "nr": "26",
+    "nazwa": "Gdynia",
+    "powiaty": [
+      "bytowski",
+      "chojnicki",
+      "człuchowski",
+      "kartuski",
+      "kościerski",
+      "lęborski",
+      "pucki",
+      "słupski",
+      "wejherowski"
+    ],
+    "miasta": [
+      "Gdynia",
+      "Słupsk"
+    ]
+  },
+  {
+    "nr": "27",
+    "nazwa": "Bielsko-Biała",
+    "powiaty": [
+      "bielski",
+      "cieszyński",
+      "pszczyński",
+      "żywiecki"
+    ],
+    "miasta": [
+      "Bielsko-Biała"
+    ]
+  },
+  {
+    "nr": "28",
+    "nazwa": "Częstochowa",
+    "powiaty": [
+      "częstochowski",
+      "kłobucki",
+      "lubliniecki",
+      "myszkowski"
+    ],
+    "miasta": [
+      "Częstochowa"
+    ]
+  },
+  {
+    "nr": "29",
+    "nazwa": "Gliwice",
+    "powiaty": [
+      "gliwicki",
+      "tarnogórski"
+    ],
+    "miasta": [
+      "Bytom",
+      "Gliwice",
+      "Zabrze"
+    ]
+  },
+  {
+    "nr": "30",
+    "nazwa": "Rybnik",
+    "powiaty": [
+      "mikołowski",
+      "raciborski",
+      "rybnicki",
+      "wodzisławski"
+    ],
+    "miasta": [
+      "Jastrzębie-Zdrój",
+      "Rybnik",
+      "Żory"
+    ]
+  },
+  {
+    "nr": "31",
+    "nazwa": "Katowice",
+    "powiaty": "bieruńsko-lędziński",
+    "miasta": [
+      "Chorzów",
+      "Katowice",
+      "Mysłowice",
+      "Piekary Śląskie",
+      "Ruda Śląska",
+      "Siemianowice Śląskie",
+      "Świętochłowice",
+      "Tychy"
+    ]
+  },
+  {
+    "nr": "32",
+    "nazwa": "Sosnowiec",
+    "powiaty": [
+      "będziński",
+      "zawierciański"
+    ],
+    "miasta": [
+      "Dąbrowa Górnicza",
+      "Jaworzno",
+      "Sosnowiec"
+    ]
+  },
+  {
+    "nr": "33",
+    "nazwa": "Kielce",
+    "wojewodztwo": "świętokrzyskie"
+  },
+  {
+    "nr": "34",
+    "nazwa": "Elbląg",
+    "powiaty": [
+      "bartoszycki",
+      "braniewski",
+      "działdowski",
+      "elbląski",
+      "iławski",
+      "lidzbarski",
+      "nowomiejski",
+      "ostródzki"
+    ],
+    "miasta": [
+      "Elbląg"
+    ]
+  },
+  {
+    "nr": "35",
+    "nazwa": "Olsztyn",
+    "powiaty": [
+      "ełcki",
+      "giżycki",
+      "gołdapski",
+      "kętrzyński",
+      "mrągowski",
+      "nidzicki",
+      "olecki",
+      "olsztyński",
+      "piski",
+      "szczycieński",
+      "węgorzewski"
+    ],
+    "miasta": [
+      "Ełk",
+      "Olsztyn"
+    ]
+  },
+  {
+    "nr": "36",
+    "nazwa": "Kalisz",
+    "powiaty": [
+      "gostyński",
+      "jarociński",
+      "kaliski",
+      "kępiński",
+      "kościański",
+      "krotoszyński",
+      "leszczyński",
+      "ostrowski",
+      "ostrzeszowski",
+      "pleszewski",
+      "rawicki"
+    ],
+    "miasta": [
+      "Kalisz",
+      "Leszno"
+    ]
+  },
+  {
+    "nr": "37",
+    "nazwa": "Konin",
+    "powiaty": [
+      "gnieźnieński",
+      "kolski",
+      "koniński",
+      "słupecki",
+      "średzki",
+      "śremski",
+      "turecki",
+      "wrzesiński"
+    ],
+    "miasta": [
+      "Konin"
+    ]
+  },
+  {
+    "nr": "38",
+    "nazwa": "Piła",
+    "powiaty": [
+      "chodzieski",
+      "czarnkowsko-trzcianecki",
+      "grodziski",
+      "międzychodzki",
+      "nowotomyski",
+      "obornicki",
+      "pilski",
+      "szamotulski",
+      "wągrowiecki",
+      "wolsztyński",
+      "złotowski  "
+    ]
+  },
+  {
+    "nr": "39",
+    "nazwa": "Poznań",
+    "powiaty": "poznański",
+    "miasta": [
+      "Poznań"
+    ]
+  },
+  {
+    "nr": "40",
+    "nazwa": "Koszalin",
+    "powiaty": [
+      "białogardzki",
+      "choszczeński",
+      "drawski",
+      "kołobrzeski",
+      "koszaliński",
+      "sławieński",
+      "szczecinecki",
+      "świdwiński",
+      "wałecki"
+    ],
+    "miasta": [
+      "Koszalin"
+    ]
+  },
+  {
+    "nr": "41",
+    "nazwa": "Szczecin",
+    "powiaty": [
+      "goleniowski",
+      "gryficki",
+      "gryfiński",
+      "kamieński",
+      "łobeski",
+      "myśliborski",
+      "policki",
+      "pyrzycki",
+      "stargardzki"
+    ],
+    "miasta": [
+      "Szczecin",
+      "Świnoujście"
+    ]
+  }
+]
