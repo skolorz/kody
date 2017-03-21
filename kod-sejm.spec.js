@@ -3,12 +3,12 @@ describe("Mapowanie kodów pocztowych na okręgi", function() {
     	kody = require("./data/kody.json"),
     	ks = require("./kod-sejm.js");
 
- it("should find okreg by code", function() {
+ it("znajduje okręg po kodzie powiatu", function() {
     var okreg = ks.kodSejm("44-310", kody, okregi)
 	expect(okreg.nr).toBe("30");
   });
 
- it("should count okregi for codes", function() {
+ it("znajduje okręg po kodzie miasta", function() {
     var okreg = ks.kodSejm("44-240", kody, okregi)
 	expect(okreg.nr).toBe("30");
   });
