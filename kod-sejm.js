@@ -1,5 +1,8 @@
 function stats (kody, wojewodztwa, okregi){
-    return kody.map(function(kod) {
+    var unikalne = Array.from(new Set(kody));
+    return unikalne
+        .sort()
+        .map(function(kod) {
             return kodSejm(kod, wojewodztwa, okregi);
         })
         .reduce(function(result, okr){
@@ -34,5 +37,5 @@ function kodSejm (kod, wojewodztwa, okregi){
 
 module.exports = {
     kodSejm: kodSejm,
-    stats: stats
+    stats: stats,
 }

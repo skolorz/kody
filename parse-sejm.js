@@ -5,12 +5,13 @@ var powiat = /powiat\s+(.+);.*\d+?/;
 var miasto = /miast.+:\s*(.+?)\s+\d+?/;
 var LineByLineReader = require('line-by-line'),
     fs = require("fs"),   
-    lr = new LineByLineReader('./sejm.txt'),
+    lr = new LineByLineReader("./source-data/sejm.txt"),
     result = []; 
 function parseOkreg(line){
     var m = line.match(okreg);
     if (m)
-        return {nr: m[1],nazwa: m[2]};
+        return {nr: parseInt(m[1], 10),
+                nazwa: m[2]};
     else {
         console.log("error", line);
         return {};
@@ -60,6 +61,9 @@ lr.on('line', function (line) {
 });
 
 lr.on("end", function(){
-          fs.writeFileSync("./sejm.json",  JSON.stringify(result, null, 2));
+    result = result.sort(function(a, b){
+        return a.nr - b.nr;
+    });
+    fs.writeFileSync("./sejm.json",  JSON.stringify(result, null, 2));
 });
 
