@@ -1,6 +1,6 @@
 var okreg = /^(\d+)\s+(.+?)\s+?(województwo|powiat|powiaty|miasto).*/;
 var woj = /.*województwo\s+(\S+?)\s/;
-var powiaty = /powiaty:\s*(.+?)(;|\s\d+?)/;
+var powiaty = /powiaty:\s*(.+?)(;|\s*\d+?)/;
 var powiat = /powiat\s+(.+);.*\d+?/;
 var miasto = /miast.+:\s*(.+?)\s+\d+?/;
 var LineByLineReader = require('line-by-line'),
@@ -64,6 +64,6 @@ lr.on("end", function(){
     result = result.sort(function(a, b){
         return a.nr - b.nr;
     });
-    fs.writeFileSync("./sejm.json",  JSON.stringify(result, null, 2));
+    fs.writeFileSync("./data/sejm.json",  JSON.stringify(result, null, 2));
 });
 

@@ -12,23 +12,25 @@ function stats (kody, wojewodztwa, okregi){
 };
 
 function kodSejm (kod, wojewodztwa, okregi){
-    var powiat, okreg;
+    var res, okreg;
     function powiatByKod(kod, wojewodztwa) {
         for (var wojewodztwo in wojewodztwa  ) {
             for (var powiat in wojewodztwa[wojewodztwo]) {
                 if (wojewodztwa[wojewodztwo][powiat].indexOf(kod) > -1){
-                    return powiat;
+                    return {powiat: powiat, wojewodztwo: wojewodztwo};
                 }
             }
         }
     }
-
-    powiat = powiatByKod(kod, wojewodztwa);
+    res = powiatByKod(kod, wojewodztwa);
     okreg = okregi.filter(function(o){
-        if (o.powiaty && o.powiaty.indexOf(powiat) > -1) {
+        if (o.wojewodztwo === res.wojewodztwo) {
             return true;
         }
-        if (o.miasta && o.miasta.indexOf(powiat) > -1) {
+        if (o.powiaty && o.powiaty.indexOf(res.powiat) > -1) {
+            return true;
+        }
+        if (o.miasta && o.miasta.indexOf(res.powiat) > -1) {
             return true;
         }
     });

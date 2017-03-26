@@ -7,7 +7,7 @@ var fs = require("fs"),
 fastCsv
  .fromStream(stream, {headers : true, delimiter: ";"})
      .on("data", function(data){
-		var wojewodztwo = data["WOJEWÓDZTWO"],
+		var wojewodztwo = data["WOJEWÓDZTWO"].match(/Województwo (.*)/)[1],
             powiat = data["POWIAT"],
             kod = data["KOD POCZTOWY"],
             nazwa, m;

@@ -1,5 +1,5 @@
 {
-  "Województwo mazowieckie": {
+  "mazowieckie": {
     "Warszawa": [
       "00-001",
       "00-002",
@@ -4769,7 +4769,7 @@
       "96-332"
     ]
   },
-  "Województwo lubelskie": {
+  "lubelskie": {
     "rycki": [
       "08-500",
       "08-503",
@@ -5705,7 +5705,7 @@
       "24-350"
     ]
   },
-  "Województwo warmińsko-mazurskie": {
+  "warmińsko-mazurskie": {
     "Olsztyn": [
       "10-001",
       "10-003",
@@ -6620,7 +6620,7 @@
       "82-317"
     ]
   },
-  "Województwo podlaskie": {
+  "podlaskie": {
     "Białystok": [
       "15-001",
       "15-002",
@@ -7479,7 +7479,7 @@
       "19-230"
     ]
   },
-  "Województwo świętokrzyskie": {
+  "świętokrzyskie": {
     "Kielce": [
       "25-001",
       "25-002",
@@ -8145,7 +8145,7 @@
       "29-145"
     ]
   },
-  "Województwo łódzkie": {
+  "łódzkie": {
     "opoczyński": [
       "26-300",
       "26-301",
@@ -10177,7 +10177,7 @@
       "99-440"
     ]
   },
-  "Województwo małopolskie": {
+  "małopolskie": {
     "Kraków": [
       "30-001",
       "30-002",
@@ -11766,7 +11766,7 @@
       "38-350"
     ]
   },
-  "Województwo śląskie": {
+  "śląskie": {
     "żywiecki": [
       "34-300",
       "34-310",
@@ -12985,7 +12985,7 @@
       "47-480"
     ]
   },
-  "Województwo podkarpackie": {
+  "podkarpackie": {
     "Rzeszów": [
       "35-001",
       "35-002",
@@ -13553,7 +13553,7 @@
       "39-460"
     ]
   },
-  "Województwo opolskie": {
+  "opolskie": {
     "Opole": [
       "45-001",
       "45-002",
@@ -14230,7 +14230,7 @@
       "49-351"
     ]
   },
-  "Województwo dolnośląskie": {
+  "dolnośląskie": {
     "Wrocław": [
       "50-001",
       "50-002",
@@ -15951,7 +15951,7 @@
       "67-240"
     ]
   },
-  "Województwo wielkopolskie": {
+  "wielkopolskie": {
     "Poznań": [
       "60-001",
       "60-002",
@@ -17680,7 +17680,7 @@
       "77-430"
     ]
   },
-  "Województwo lubuskie": {
+  "lubuskie": {
     "Zielona Góra": [
       "65-001",
       "65-002",
@@ -18201,7 +18201,7 @@
       "69-220"
     ]
   },
-  "Województwo zachodniopomorskie": {
+  "zachodniopomorskie": {
     "Szczecin": [
       "70-001",
       "70-002",
@@ -20214,7 +20214,7 @@
       "78-651"
     ]
   },
-  "Województwo pomorskie": {
+  "pomorskie": {
     "Słupsk": [
       "76-200",
       "76-201",
@@ -21858,7 +21858,7 @@
       "89-652"
     ]
   },
-  "Województwo kujawsko-pomorskie": {
+  "kujawsko-pomorskie": {
     "Bydgoszcz": [
       "85-001",
       "85-003",
