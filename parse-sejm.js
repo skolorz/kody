@@ -3,7 +3,7 @@ var woj = /.*województwo\s+(\S+?)\s/;
 var powiaty = /powiaty:\s*(.+?)(;|\s*\d+?)/;
 var powiat = /powiat\s+(.+);.*\d+?/;
 var miasto = /miast.+:\s*(.+?)\s+\d+?/;
-var LineByLineReader = require('line-by-line'),
+var LineByLineReader = require("line-by-line"),
     fs = require("fs"),   
     lr = new LineByLineReader("./source-data/sejm.txt"),
     result = []; 
@@ -11,7 +11,7 @@ function parseOkreg(line){
     var m = line.match(okreg);
     if (m)
         return {nr: parseInt(m[1], 10),
-                nazwa: m[2]};
+            nazwa: m[2]};
     else {
         console.log("error", line);
         return {};
@@ -46,11 +46,11 @@ function parseMiasto(okreg, line){
     return okreg;
 }
 
-lr.on('error', function (err) {
-	console.log(err);
+lr.on("error", function (err) {
+    console.log(err);
 });
 
-lr.on('line', function (line) {
+lr.on("line", function (line) {
     var okreg;
     okreg = parseOkreg(line);
     okreg = parseWoj(okreg, line);

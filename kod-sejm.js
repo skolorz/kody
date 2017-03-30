@@ -9,7 +9,7 @@ function stats (kody, wojewodztwa, okregi){
             result[okr.nr] = (result[okr.nr] || 0) + 1;
             return result;
         }, {});
-};
+}
 
 function kodSejm (kod, wojewodztwa, okregi){
     var res, okreg;
@@ -40,4 +40,4 @@ function kodSejm (kod, wojewodztwa, okregi){
 module.exports = {
     kodSejm: kodSejm,
     stats: stats,
-}
+};
