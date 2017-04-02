@@ -356,38 +356,42 @@
          "województwo":"warmińsko-mazurskie"
       }
    ],
+
    "wielkopolskie":[  
        { "nazwa":"Poznański",
            "powiaty": [
               "chodzieski",
               "czarnkowsko-trzcianecki",
+              "gostyński",
               "grodziski",
+              "jarociński",
+              "kościański",
+              "leszczyński",
               "międzychodzki",
               "nowotomyski",
               "obornicki",
               "pilski",
+              "poznański",
               "szamotulski",
-              "wągrowiecki",
+              "średzki",
               "wolsztyński",
+              "wągrowiecki",
               "złotowski",
-              "Poznań"
+              "Poznań",
+              "Leszno"
            ]
        },
        { "nazwa":"Kaliski",
            "powiaty": [
-              "gostyński",
-              "jarociński",
               "kaliski",
               "kępiński",
-              "kościański",
               "krotoszyński",
-              "leszczyński",
               "ostrowski",
               "ostrzeszowski",
               "pleszewski",
+              "wrzesiński",
               "rawicki",
-              "Kalisz",
-              "Leszno"
+              "Kalisz"
            ]
        },
        { "nazwa":"Koniński",
@@ -396,10 +400,8 @@
               "kolski",
               "koniński",
               "słupecki",
-              "średzki",
               "śremski",
               "turecki",
-              "wrzesiński",
               "Konin"
           ]
        } 
