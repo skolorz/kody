@@ -1,20 +1,19 @@
 
 describe("Poprawność pliku okręgów", function() {
-    var sejm = require("./data/sejm.json"),
-    	kody = require("./data/kody.json"),
-    	okregi = require("./data/okregi-razem.json");
+    var	kody = require("./data/kody.json"),
+        okregi = require("./data/okregi-razem.json");
 
         it("wszystkie powiaty są uwzględnione", function() {
             var braki = [], powiaty = [];
             for (var wojewodztwo in kody  ) {
-                    console.log(wojewodztwo);
                 for (var powiat in kody[wojewodztwo]) {
                     powiaty.push({ powiat: powiat, wojewodztwo: wojewodztwo });
                 }
             }
             powiaty.forEach(function (p) {
                 var m = okregi[p.wojewodztwo].filter(function (o) {
-                    //console.log(o["nazwa"]);
+                    (p.wojewodztwo === "świętokrzyskie") 
+                        && console.log(o["województwo"] ,  p.wojewodztwo,o["województwo"] === p.wojewodztwo);
                     if (o["województwo"] === p.wojewodztwo) {
                         return true;
                     }
@@ -22,7 +21,8 @@ describe("Poprawność pliku okręgów", function() {
                         return true;
                     }
                     return false;
-                });
+                  });
+                (p.wojewodztwo === "świętokrzyskie") && console.log(p,m);
                 if (!m.length){
                     braki.push(p);
                 }

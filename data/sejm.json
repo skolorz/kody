@@ -296,7 +296,18 @@
     "nr": 19,
     "nazwa": "Warszawa",
     "miasta": [
-      "Warszawa"
+      "Warszawa",
+      "garwoliński",
+      "łosicki",
+      "makowski",
+      "miński",
+      "ostrołęcki",
+      "ostrowski",
+      "pułtuski",
+      "siedlecki",
+      "sokołowski",
+      "węgrowski",
+      "wyszkowski"
     ]
   },
   {

@@ -93,17 +93,28 @@
       }
    ],
    "lubuskie":[  
-      "Gorzowski",
+      
+      {  
+         "nazwa":"Gorzowski",
+         "powiaty":[
+           "sulęciński",
+           "międzyrzecki",
+           "gorzowski",
+           "strzelecko-drezdenecki",
+           "słubicki",
+           "Gorzów Wielkopolski"
+         ]
+      }, 
       {  
          "nazwa":"Zielonogórski",
          "powiaty":[  
-            "krośnieńskiego",
-            "nowosolskiego",
-            "wschowskiego",
-            "świebodzińskiego",
-            "zielonogórskiego",
-            "żagańskiego",
-            "żarskiego",
+            "krośnieński",
+            "nowosolski",
+            "wschowski",
+            "świebodziński",
+            "zielonogórski",
+            "żagański",
+            "żarski",
             "Zielona Góra"
          ]
       }
@@ -175,7 +186,34 @@
          "nazwa":"Warszawski",
          "powiaty":[  
             "wołomiński",
-            "Warszawa"
+            "Warszawa",
+            "ciechanowski",
+            "gostyniński",
+            "mławski",
+            "płocki",
+            "płoński",
+            "przasnyski",
+            "sierpecki",
+            "sochaczewski",
+            "żuromiński",
+            "legionowski",
+            "nowodworski",
+            "otwocki",
+            "warszawski zachodni",
+            "garwoliński",
+            "łosicki",
+            "makowski",
+            "miński",
+            "ostrołęcki",
+            "ostrowski",
+            "pułtuski",
+            "siedlecki",
+            "sokołowski",
+            "węgrowski",
+            "wyszkowski",
+            "Płock",
+            "Ostrołęka",
+            "Siedlce"
          ]
       }
    ],
@@ -233,6 +271,7 @@
       {  
          "nazwa":"Przemyski",
          "powiaty":[  
+            "Przemyśl",
             "przemyski",
             "jarosławski",
             "przeworski",
@@ -253,6 +292,7 @@
       },
       { "nazwa":"Bieszczadzki",
          "powiaty": [
+          "Krosno",
           "bieszczadzki",
           "brzozowski",
           "jasielski",
@@ -283,8 +323,27 @@
               "Sopot"
             ]
        },
-      "Gdyński",
-      "Słupski"
+      {  
+         "nazwa":"Gdyński",
+         "powiaty":[  
+            "bytowski",
+            "chojnicki",
+            "człuchowski",
+            "kartuski",
+            "kościerski",
+            "lęborski",
+            "pucki",
+            "wejherowski",
+            "Gdynia"
+         ]
+      },
+      {
+        "nazwa":"Słupski",
+         "powiaty":[  
+            "Słupsk",
+            "słupski"
+         ]
+      }
    ],
    "śląskie":[  
       {  
@@ -347,7 +406,7 @@
    "świętokrzyskie":[  
       {  
          "nazwa":"Świętokrzyski",
-         "województwo":"świętokrzystkie"
+         "województwo":"świętokrzyskie"
       }
    ],
    "warmińsko-mazurskie":[  
