@@ -1,36 +1,42 @@
-
 describe("Poprawność pliku okręgów", function() {
-    var	kody = require("./data/kody.json"),
-        okregi = require("./data/okregi-razem.json");
+    var	_ = require("underscore"),
+        kody = require("./data/kody.json"),
+        okregi = require("./data/okregi-razem.json"),
+        sejm = require("./data/sejm.json");
 
-        it("wszystkie powiaty są uwzględnione", function() {
-            var braki = [], powiaty = [];
+        
+        function wszystkiePowiaty() {
+            var powiaty = [];
             for (var wojewodztwo in kody  ) {
                 for (var powiat in kody[wojewodztwo]) {
                     powiaty.push({ powiat: powiat, wojewodztwo: wojewodztwo });
                 }
             }
-            powiaty.forEach(function (p) {
-                var m = okregi[p.wojewodztwo].filter(function (o) {
-                    (p.wojewodztwo === "świętokrzyskie") 
-                        && console.log(o["województwo"] ,  p.wojewodztwo,o["województwo"] === p.wojewodztwo);
-                    if (o["województwo"] === p.wojewodztwo) {
-                        return true;
-                    }
-                    if (o.powiaty && o.powiaty.indexOf(p.powiat) > -1) {
-                        return true;
-                    }
-                    return false;
-                  });
-                (p.wojewodztwo === "świętokrzyskie") && console.log(p,m);
-                if (!m.length){
-                    braki.push(p);
-                }
+            return powiaty;
+        }
+
+        describe("istnieje okręg obejmujący powiat:", function() {
+            var braki = [],
+                powiaty = wszystkiePowiaty();
+
+            powiaty.forEach(function (powiat) {
+                it (powiat.powiat, function () {
+                  var m = okregi[powiat.wojewodztwo].filter(function (o) {
+                      if (o["województwo"] === powiat.wojewodztwo) {
+                          return true;
+                      }
+                      if (o.powiaty && o.powiaty.indexOf(powiat.powiat) > -1) {
+                          return true;
+                      }
+                      return false;
+                    });
+
+                    expect(m).not.toEqual([]);
+                });
             });
-            expect(braki).toEqual([]);
         });
 
-        it("powiaty są unikalne", function() {
+        it("powiat występuje tylko w jednym okręgu:", function() {
             var okreg, powiaty, duplikaty = [];
             for (var wojewodztwo in okregi) {
                 powiaty = [];
@@ -46,5 +52,27 @@ describe("Poprawność pliku okręgów", function() {
                 });
             }
             expect(duplikaty).toEqual([]);
+        });
+
+        describe("okręg wyborczy do sejmu jest w jednym okręgu partyjnym:", function() {
+          var razem = _.flatten(_.values(okregi)).filter(o => !!o.nazwa);
+          razem = razem.map( r => {return {nazwa: r.nazwa, powiaty: r.powiaty || _.keys(kody[r['województwo']])}})
+console.log(razem);
+          sejm.forEach(okreg => {
+
+            it(okreg.nazwa, function () {
+              var powiaty, m;
+              if (okreg.wojewodztwo){
+                powiaty =  _.keys(kody[okreg.wojewodztwo]);
+              } else {
+                powiaty = _.union(okreg.powiaty, okreg.miasta);
+              }
+
+              m = razem.map(o => _.intersection(o.powiaty, powiaty)).filter(i => i.length);
+              expect(m.length).not.toEqual(0);
+              expect(m).toEqual([m[0]]);
+                  
+            });
+          });
         });
 });
