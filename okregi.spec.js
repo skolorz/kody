@@ -57,7 +57,6 @@ describe("Poprawność pliku okręgów", function() {
         describe("okręg wyborczy do sejmu jest w jednym okręgu partyjnym:", function() {
           var razem = _.flatten(_.values(okregi)).filter(o => !!o.nazwa);
           razem = razem.map( r => {return {nazwa: r.nazwa, powiaty: r.powiaty || _.keys(kody[r['województwo']])}})
-console.log(razem);
           sejm.forEach(okreg => {
 
             it(okreg.nazwa, function () {
