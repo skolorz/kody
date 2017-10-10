@@ -1,4 +1,4 @@
-describe("Mapowanie kodów pocztowych na okręgi", function() {
+describe("Mapowanie kodów pocztowych na okręgi sejmowe", function() {
     var okregi = require("./data/sejm.json"),
     	kody = require("./data/kody.json"),
     	ks = require("./kod-sejm.js");
