@@ -24,7 +24,10 @@ function kodSejm (kod, wojewodztwa, okregi){
     }
     res = powiatByKod(kod, wojewodztwa);
     okreg = okregi.filter(function(o){
-        if (o.wojewodztwo === res.wojewodztwo) {
+        if (o.wojewodztwo !== res.wojewodztwo) {
+            return false;
+        }
+        if (!o.powiaty && !o.miasta){
             return true;
         }
         if (o.powiaty && o.powiaty.indexOf(res.powiat) > -1) {
@@ -41,3 +44,4 @@ module.exports = {
     kodSejm: kodSejm,
     stats: stats,
 };
+

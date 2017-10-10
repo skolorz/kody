@@ -1,4 +1,4 @@
-describe("Poprawność pliku okręgów", function() {
+describe("Poprawność pliku okręgów:", function() {
     var	_ = require("underscore"),
         kody = require("./data/kody.json"),
         okregi = require("./data/okregi-razem.json"),
@@ -54,22 +54,29 @@ describe("Poprawność pliku okręgów", function() {
             expect(duplikaty).toEqual([]);
         });
 
-        describe("okręg wyborczy do sejmu jest w jednym okręgu partyjnym:", function() {
-          var razem = _.flatten(_.values(okregi)).filter(o => !!o.nazwa);
-          razem = razem.map( r => {return {nazwa: r.nazwa, powiaty: r.powiaty || _.keys(kody[r['województwo']])}})
+        xdescribe("okręg wyborczy do sejmu jest w jednym okręgu partyjnym:", function() {
           sejm.forEach(okreg => {
-
             it(okreg.nazwa, function () {
-              var powiaty, m;
-              if (okreg.wojewodztwo){
+              var powiaty, c, m, razem = okregi[okreg.wojewodztwo];
+              razem = razem.map( r => {
+                    return {
+                            nazwa: r.nazwa, 
+                            powiaty: r.powiaty || _.keys(kody[r['województwo']])}
+              })
+
+              powiaty = _.union(okreg.powiaty, okreg.miasta);
+              if (!powiaty.length){
                 powiaty =  _.keys(kody[okreg.wojewodztwo]);
-              } else {
-                powiaty = _.union(okreg.powiaty, okreg.miasta);
               }
 
-              m = razem.map(o => _.intersection(o.powiaty, powiaty)).filter(i => i.length);
+              m = razem
+                  .filter(r => _.intersection(r.powiaty, powiaty).length)
+
               expect(m.length).not.toEqual(0);
-              expect(m).toEqual([m[0]]);
+              if (m.length > 1){
+                c = m.map(r =>  {return {nazwa: r.nazwa, pow: _.intersection(r.powiaty, powiaty)}});
+                expect(c).toBe([]);
+              }
                   
             });
           });

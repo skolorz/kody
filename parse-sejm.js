@@ -71,14 +71,22 @@ lr.on("line", function (line) {
 
 function findWoj(okreg) {
   var powiaty;
+
   if (okreg.wojewodztwo){
     return okreg.wojewodztwo;
   }
   powiaty = _.union(okreg.powiaty, okreg.miasta);
 
   return _.keys(kody)
-    .filter(w => _.intersection(_.keys(kody[w]), powiaty).length > 1).pop();
-
+    .map(w => [w,  
+        _.chain(_.keys(kody[w]))
+          .intersection(powiaty)
+          .value().length]
+    )
+    .filter(w => w[1])
+    .sort((a,b) => a[1] < b[1])
+    //.map(w => {console.log(okreg.nazwa,w); return w})
+    .shift()[0];
 }
 
 lr.on("end", function(){

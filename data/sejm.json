@@ -314,7 +314,8 @@
     "nazwa": "Warszawa",
     "miasta": [
       "Warszawa"
-    ]
+    ],
+    "wojewodztwo": "mazowieckie"
   },
   {
     "nr": 20,
@@ -619,7 +620,8 @@
     "powiaty": "poznański",
     "miasta": [
       "Poznań"
-    ]
+    ],
+    "wojewodztwo": "wielkopolskie"
   },
   {
     "nr": 40,
