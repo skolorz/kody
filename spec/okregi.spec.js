@@ -1,8 +1,8 @@
 describe("Poprawność pliku okręgów:", function() {
     var	_ = require("underscore"),
-        kody = require("./data/kody.json"),
-        okregi = require("./data/okregi-razem.json"),
-        sejm = require("./data/sejm.json");
+        kody = require("../data/kody.json"),
+        okregi = require("../data/okregi-razem.json"),
+        sejm = require("../data/sejm.json");
 
         
     function wszystkiePowiaty() {
@@ -16,8 +16,7 @@ describe("Poprawność pliku okręgów:", function() {
     }
 
     describe("istnieje okręg obejmujący powiat:", function() {
-        var braki = [],
-            powiaty = wszystkiePowiaty();
+        var powiaty = wszystkiePowiaty();
 
         powiaty.forEach(function (powiat) {
             it (powiat.powiat, function () {
@@ -37,7 +36,7 @@ describe("Poprawność pliku okręgów:", function() {
     });
 
     it("powiat występuje tylko w jednym okręgu:", function() {
-        var okreg, powiaty, duplikaty = [];
+        var powiaty, duplikaty = [];
         for (var wojewodztwo in okregi) {
             powiaty = [];
             okregi[wojewodztwo].forEach(function(o){
