@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmin-node .",
+    "lint": "eslint "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fast-csv": "^2.4.0",
     "line-by-line": "^0.1.5",
+    "lodash": "^4.17.4",
     "turf-union": "^3.0.12"
   },
   "devDependencies": {
+    "eslint-plugin-jasmine": "^2.9.1",
     "jasmine": "^2.5.3",
     "jasmine-expect": "^3.7.0",
     "jasmine-node": "^1.14.5"

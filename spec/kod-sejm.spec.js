@@ -1,7 +1,7 @@
 describe("Mapowanie kodów pocztowych na okręgi sejmowe", function() {
-    var okregi = require("./data/sejm.json"),
-    	kody = require("./data/kody.json"),
-    	ks = require("./kod-sejm.js");
+    var okregi = require("../data/sejm.json"),
+        kody = require("../data/kody.json"),
+        ks = require("../src/kod-sejm.js")(kody, okregi);
 
     describe("kod na okręg", function() {
         it("znajduje okręg po kodzie powiatu", function() {
