@@ -43,9 +43,9 @@ describe("Mapowanie kodów pocztowych na okręgi sejmowe", function() {
             var result = ks.stats(["91-070", "44-102", "44-310"], kody, okregi);
             expect(result).toEqual({ "9" : 1, "29" : 1, "30" : 1 });
         });
-        it("zlicza unikalne kody", function() {
+        it("zlicza zduplikowane kody", function() {
             var result = ks.stats(["44-240","44-240","44-310"], kody, okregi);
-            expect(result).toEqual({ "30": 2});
+            expect(result).toEqual({ "30": 3});
         });
     });
 });

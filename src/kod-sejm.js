@@ -1,11 +1,13 @@
+const Admin = require("./admin.js");
+
 module.exports = function (wojewodztwa, okregi){
+    const admin = Admin(wojewodztwa);
     
     function stats (kody){
-        var unikalne = Array.from(new Set(kody));
-        return unikalne
+        return kody
             .sort()
             .map(function(kod) {
-                return kodSejm(kod, wojewodztwa, okregi);
+                return kodSejm(kod);
             })
             .reduce(function(result, okr){
                 result[okr.nr] = (result[okr.nr] || 0) + 1;
@@ -15,16 +17,8 @@ module.exports = function (wojewodztwa, okregi){
 
     function kodSejm (kod){
         var res, okreg;
-        function powiatByKod(kod, wojewodztwa) {
-            for (var wojewodztwo in wojewodztwa  ) {
-                for (var powiat in wojewodztwa[wojewodztwo]) {
-                    if (wojewodztwa[wojewodztwo][powiat].indexOf(kod) > -1){
-                        return {powiat: powiat, wojewodztwo: wojewodztwo};
-                    }
-                }
-            }
-        }
-        res = powiatByKod(kod, wojewodztwa);
+
+        res = admin.powiatByKod(kod);
         okreg = okregi.filter(function(o){
             if (o.wojewodztwo !== res.wojewodztwo) {
                 return false;
