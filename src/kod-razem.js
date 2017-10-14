@@ -16,7 +16,15 @@ module.exports = function(kody, razem) {
     }
 
     function stats(kody) {
-        return kody.map(k => okregByKod(k));
+        var okregi;
+
+        okregi = kody.map(k => okregByKod(k));
+        okregi = okregi.reduce((result, okreg) => {
+            result[okreg.nazwa] = (result[okreg.nazwa] || 0) + 1;
+            return result;
+        }, {});
+
+        return okregi;
     }
 
     return {

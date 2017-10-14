@@ -20,7 +20,13 @@ describe("Mapowanie kodów pocztowych na okręgi Razem:", function() {
         it("jeden kod", function() {
             var okregi = ks.stats(["16-001"]);
 
-            expect(okregi[0].nazwa).toBe("Białostocki");
+            expect(okregi).toEqual({"Białostocki": 1});
+        });
+
+        it("wiele kodów", function() {
+            var okregi = ks.stats(["16-001", "16-002"]);
+
+            expect(okregi).toEqual({ "Białostocki": 2});
         });
     });
 });
