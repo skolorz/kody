@@ -1,11 +1,18 @@
-const kodRegExp = /\d\d-\d\d\d/;
+const kodRegExp = /^\d\d-\d\d\d$/g;
 
 module.exports = {
     parse: function (input){
-        if (input.match(kodRegExp)){
-            return [input];
-        } else {
-            return [];
-        }
+        return new Promise( (resolve, reject) => {
+            var elems, valid, invalid;
+           
+            elems = input.split(/\s+|;|,/);
+            invalid = elems.filter(k => !k.match(kodRegExp));
+            if (invalid.length){
+                reject(invalid);
+            } else {
+                valid = elems.filter(k => k.match(kodRegExp));
+                resolve(valid);
+            }
+        });
     }
 };

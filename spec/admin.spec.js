@@ -1,3 +1,4 @@
+
 describe("Struktura administracyjna", function() {
     var kody = require("../data/kody.json"),
         admin = require("../src/admin.js")(kody);
